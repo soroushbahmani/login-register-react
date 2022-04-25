@@ -5,7 +5,7 @@ import { validate } from './validata'
 // pakage
 import axios from 'axios';
 import { ToastContainer } from 'react-toastify';
-import { notify } from './toast';
+import { notify } from '../../setting/toast';
 // css
 import styles from './SingUp.module.css'
 import { Route, Link } from 'react-router-dom';
