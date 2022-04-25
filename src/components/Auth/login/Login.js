@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 
 import 'react-toastify/dist/ReactToastify.css';
-import { validate } from './validata'
+import { validate } from '../../setting/validata'
 // pakage
 import axios from 'axios';
 import { ToastContainer } from 'react-toastify';
-import { notify } from './toast';
+import { notify } from '../../setting/toast';
 // css
 import styles from './Login.module.css'
 import { Route,Link } from 'react-router-dom';

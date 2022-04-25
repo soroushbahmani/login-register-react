@@ -1,11 +1,20 @@
-
 import './App.css';
-import SignUp from './components/Auth/signUp/SignUp';
+// components
+import SignUP from './components/Auth/signUp/SignUp';
+import Login from './components/Auth/login/Login';
+// route
+import { Route, Routes, Navigate } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-  app
+      <Routes>
+        <Route path='/' element={<Navigate to='/signup'/>} />
+
+        <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<SignUP />} />
+      </Routes>
+
     </div>
   );
 }

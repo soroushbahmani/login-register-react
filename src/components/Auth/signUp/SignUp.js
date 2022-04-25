@@ -11,7 +11,7 @@ import styles from './SingUp.module.css'
 import { Route, Link } from 'react-router-dom';
 
 
-const SignUP = () => {
+const SignUp = () => {
 
   const [data, setData] = useState({
     name: "",
@@ -112,4 +112,4 @@ const SignUP = () => {
     </div>
   )
 }
-export default SignUP
+export default SignUp
