@@ -7,7 +7,7 @@ import axios from 'axios';
 import { ToastContainer } from 'react-toastify';
 import { notify } from './toast';
 // css
-import styles from './singUp.module.css'
+import styles from './SingUp.module.css'
 import { Route, Link } from 'react-router-dom';
 
 
