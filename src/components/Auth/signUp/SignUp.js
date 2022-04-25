@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 import 'react-toastify/dist/ReactToastify.css';
-import { validate } from './validata'
+import { validate } from '../../setting/validata'
 // pakage
 import axios from 'axios';
 import { ToastContainer } from 'react-toastify';
